@@ -5,24 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <title>Prikshit | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit';
+
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      background-color: hsl(0, 0%, 100%);
+      margin: -50px -100px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      font-family: arial;
+      border: solid 0px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .image {
+      padding: 30px 10px;
+      margin: 30px 10px;
+      border: 10px solid blue;
+      border-radius: 20px;
+
+
+    } 
+    
+    p {
+      text-align: justify;
+      height: 50px
+      ;
+    }
+
+    h5 {
+      text-align: center;
+      font-size: 20px;
+      color: Grayish blue;
+    }
+    p {
+      text-align: center;
+      font-size: 15px;
+      color: Grayish blue;
+    }
+    @media (min-width: 375px) and (max-width: 1440px){
+      
+    }
+
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="card" style="width: 18rem;">
+    <div class="image">
+    <img src="./images/Prikshit's Portfolio.png" alt="QR">
+    </div>
+  <div class="card-body">
+      <h5>Hello I'm Prikshit</h5>
+      <p class="card-text">Scan the QR code to visit my porfolio website</p>
+    </ul>   
   </div>
+  </div>
+  <!-- <div class="attribution"> 
+     Challenge by <a href="https://prikshit04.github.io/portfolio/" target="_blank">Prikshit</a>.  
+     Coded by <a href="#">Prikshit</a>. 
+   </div> -->
 </body>
 </html>
